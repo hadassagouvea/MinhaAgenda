@@ -12,6 +12,8 @@ import androidx.fragment.app.Fragment;
 
 import org.w3c.dom.Text;
 
+// Repositório com exemplo de Fragmentos estáticos
+
 public class Fragmento1 extends Fragment {
     private Button Botao1;
     private Button Botao2;
