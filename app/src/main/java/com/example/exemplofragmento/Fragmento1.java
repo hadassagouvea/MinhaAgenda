@@ -8,7 +8,9 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
+import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
 
 import org.w3c.dom.Text;
 
@@ -18,6 +20,7 @@ public class Fragmento1 extends Fragment {
     private Button Botao1;
     private Button Botao2;
     private Button Botao3;
+    private Button Botao4;
     private TextView texto1;
     private View v;
 
@@ -59,6 +62,16 @@ public class Fragmento1 extends Fragment {
                 Log.d("prints", "botao 2");
                 TextView txt = (TextView) Fragmento2.frgto2.findViewById(R.id.texto_frg2);
                 if (txt != null) txt.setText("Apertou botão 3");
+            }
+        });
+
+        Botao4 = (Button) v.findViewById(R.id.button4);
+        Botao4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.d("prints", "botao 4");
+                DialogFragment fragmentoData = new FragmentoDatePicker();
+                fragmentoData.show(getParentFragmentManager(), "datePicker");
             }
         });
 
