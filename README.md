@@ -23,7 +23,7 @@ O projeto consiste no desenvolvimento de um aplicativo mobile com Java para a im
 Foi implementada apenas uma classe _Compromisso_ para o gerenciamento dos eventos cadastrados no sistema.
 
 ### Etapa 2: 
-Foram implementados os dois fragmentos referentes a entra e saida de dados (_FragmentoEntrada_ e _FragmentoVisualizacao_) e a MainActivity, conforme o enunciado da atividade. A interface de usuário desenvolvida foi elaborada da seguinte maneira:
+Foram implementados os dois fragmentos referentes a entrada e saída de dados (_FragmentoEntrada_ e _FragmentoVisualizacao_) e a MainActivity, conforme o enunciado da atividade. A interface de usuário desenvolvida foi elaborada da seguinte maneira:
 
 ![tela1minhaagenda](https://github.com/user-attachments/assets/14884e7e-927f-4248-95f8-4b4be42cb520)
 
