@@ -1,4 +1,4 @@
-package com.example.exemplofragmento;
+package com.example.minhaagenda;
 
 import org.junit.Test;
 
