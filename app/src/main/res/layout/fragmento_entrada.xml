@@ -20,7 +20,41 @@
         android:textStyle="bold" />
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="8dp">
+
+        <EditText
+            android:id="@+id/dataSelecionadaText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:backgroundTint="@color/textColor"
+            android:padding="8dp"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/black" />
+
+        <Space
+            android:layout_width="16dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/horaSelecionadaText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:backgroundTint="@color/textColor"
+            android:padding="8dp"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center"
@@ -28,8 +62,9 @@
 
         <Button
             android:id="@+id/botaoData"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="Data"
             android:backgroundTint="@color/buttonColor" />
 
@@ -39,8 +74,9 @@
 
         <Button
             android:id="@+id/botaoHora"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="Hora"
             android:backgroundTint="@color/buttonColor" />
     </LinearLayout>
@@ -51,6 +87,7 @@
         android:layout_height="wrap_content"
         android:hint="Descrição do Compromisso"
         android:padding="8dp"
+        android:textColor="@color/textColor"
         android:textColorHint="@color/textColor"
         android:backgroundTint="@color/textColor" />
 

@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:padding="16dp"> 
+    android:padding="16dp">
 
     <TextView
         android:layout_width="match_parent"
@@ -14,9 +14,9 @@
         android:textSize="16sp"
         android:layout_marginBottom="8dp"
         android:gravity="start"
-        android:paddingBottom="16dp" 
-        android:paddingTop="4dp" 
-        android:textStyle="bold" /> 
+        android:paddingBottom="16dp"
+        android:paddingTop="4dp"
+        android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -50,7 +50,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@color/detailContainer" 
+        android:background="@color/detailContainer"
         android:padding="16dp"
         android:gravity="center">
 
@@ -58,9 +58,12 @@
             android:id="@+id/listaCompromissos"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Lista de Compromissos"
+            android:text="Data selecionada aparecerá aqui"
             android:textColor="@color/textColor"
             android:textSize="18sp"
-            android:gravity="center" />
+            android:gravity="center"
+            android:background="@color/detailContainer"
+            android:padding="12dp"
+            android:layout_marginTop="8dp" />
     </LinearLayout>
 </LinearLayout>
